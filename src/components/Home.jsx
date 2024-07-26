@@ -33,7 +33,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='relative w-2/3 md:w-full'>
-                    <div className='absolute inset-0 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-2xl'></div>
+                    <div className='absolute inset-0 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-2xl z-0'></div>
                     <img src={Profile} alt='my-pic' className='relative rounded-2xl mx-auto z-10' />
                 </div>
             </div>
